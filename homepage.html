@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MINDROAM HUB - Explore Knowledge</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="homepage_sheet.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>MINDROAM HUB</h1>
+                <nav>
+                    <ul>
+                        <!-- the hastag(#) is used to create a link to a specific section/element within the same page -->
+                        <li><a href="#home">Home</a></li>                       
+                        <li><a href="about.html">About</a></li>                       
+                        <li><a href="courses">Courses</a></li>                       
+                        <li><a href="flashcards">Flashcards</a></li>
+                        <li><a href="#tracker">Tracker</a></li>                       
+                        <li><a href="#contact">Contact</a></li>                       
+                        <li><a href="content">Content</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to MINDROAM HUB</h2>
+                <p>Get to access free tools like flashcards, study trackers and more.</p>
+                <a href="about.html" class="btn">Learn More About Us</a>
+                <!-- btn is a commonly used class name that stands for button(it is rather a naming convention used to apply styles and behaivors to button elements or other elements that are styled to look like buttons) -->
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2>Various Courses</h2>
+                <p>Explore a vast range of subjects and courseworks availably waiting for you to discover!</p>
+                <div class="course-list">
+                    <div class="course-item">
+                        <h3>Course 1</h3>
+                        <p>Content coming soon...</p>
+                    </div>    
+                    <div class="course-item">
+                        <h3>Course 2</h3>
+                        <p>Content coming soon...</p>
+                    </div>    
+                    <div class="course-item">
+                        <h3>Course 3</h3>
+                        <p>Content coming soon...</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Course 4</h3>
+                        <p>Content coming soon...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="flashcards" class="flashcards">
+            <div class="container">
+                <h2>Flashcards</h2>
+                <p>Create and study flashcards to help with your learning journey.</p>
+            </div>
+        </section>
+
+        <section id="content" class="content">
+            <div class="container">
+                <h2>Content</h2>
+                <p>Access a variety of educational content from notes to audio files to even videos, and much more.</p>
+            </div>
+        </section>
+        <section id="tracker" class="tracker">
+            <div class="container">
+                <h2>Study Tracker</h2>
+                <p>Track your learning progress and set goals with our Study Tracker.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need support, feel free to reach out.</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <!-- textarea is used to create a multi-line text input field where users can enter and edit longer pieces of text -->
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 MINDROAM HUB. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
